@@ -30,7 +30,10 @@ from nltk.corpus import stopwords
 
 import matplotlib.pyplot as plt
 
-get_ipython().run_line_magic('matplotlib', 'inline')
+matplotlib.use('TkAgg')
+%matplotlib osx
+
+#get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # In[9]:
